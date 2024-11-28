@@ -75,7 +75,7 @@ public class Main {
         usersMap.put(user1.getId(), user3); // 1 -> 35 % 16 = 3
 
         // 16 * 0.75 = 12
-        // 32 * 0.75 = ..
+        // 32 * 0.75 = ...
         // 64 бакета , 8 эл
         // IdentityHashCode
 
