@@ -7,6 +7,7 @@ import java.util.Objects;
 
 @Data
 @AllArgsConstructor
+//public class User implements Comparable<User> {
 public class User {
     private int id;
     private int age;
@@ -23,4 +24,13 @@ public class User {
     public int hashCode() {
         return 1;
     }
+
+//    @Override
+//    public int compareTo(User user) {
+//        int nameCompare = this.name.compareTo(user.name);
+//        if (nameCompare != 0) {
+//            return nameCompare;
+//        }
+//        return Integer.compare(id, user.id);
+//    }
 }
