@@ -66,7 +66,7 @@ public class Main {
             methodVariable1[0]++;
 
             x = x + methodVariable;
-//            methodVariable; // ошибка компиляции
+//            methodVariable++; // ошибка компиляции
 
             return x;
         };
