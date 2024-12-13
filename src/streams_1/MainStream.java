@@ -1,10 +1,9 @@
-package streams;
+package streams_1;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Stream;
